@@ -74,12 +74,12 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
           fontWeight: FontWeight.w600,
           fontSize: 20,
         ),
-        leading: 
-        
-        IconButton(
-          icon: Icon(Icons.arrow_back_rounded, color: Colors.black),
-          onPressed: () => Navigator.pop(context),
-        ),
+        leading:
+            // IconButton(
+            //   icon: Icon(Icons.arrow_back_rounded, color: Colors.black),
+            //   onPressed: () => Navigator.pop(context),
+            // ),
+            SizedBox(),
       );
     }
   }
